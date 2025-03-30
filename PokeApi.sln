@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonDAL", "PokemonDAL\Po
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - API Integration Layer", "4 - API Integration Layer", "{8E8CB661-EBD1-4065-8626-BD0FF27641EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonIntegration", "PokemonIntegration\PokemonIntegration.csproj", "{5B58AAF1-1198-4891-946E-1C28801BC8E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonIntegration", "PokemonIntegration\PokemonIntegration.csproj", "{5B58AAF1-1198-4891-946E-1C28801BC8E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test Layer", "5 - Test Layer", "{6DACB146-F99F-4E1F-BC05-FC1B6D376AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{5B58AAF1-1198-4891-946E-1C28801BC8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B58AAF1-1198-4891-946E-1C28801BC8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B58AAF1-1198-4891-946E-1C28801BC8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{1F46C639-F424-4EA3-A504-10E6569CC2EE} = {88356A0F-ED1E-4ADF-8EAA-FF665864FD99}
 		{70E755B8-172F-45AA-9D34-852C541979C5} = {4C4EB236-29C3-4BB9-8B79-825FF075051A}
 		{5B58AAF1-1198-4891-946E-1C28801BC8E6} = {8E8CB661-EBD1-4065-8626-BD0FF27641EE}
+		{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3} = {6DACB146-F99F-4E1F-BC05-FC1B6D376AF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {110D86CF-9E0D-4B15-A0F5-67F0004B1987}
