@@ -30,3 +30,4 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\refint\PokeApi.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.pdb
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.genruntimeconfig.cache
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\ref\PokeApi.dll
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.sourcelink.json
