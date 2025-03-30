@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApi", "PokeApi\PokeApi.csproj", "{B0D38937-17A7-4491-A96B-11DD80E2DD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebApi", "1 - WebApi", "{B035C991-5A68-49AC-8A70-3165E8BABE2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Logic Layer", "2 - Business Logic Layer", "{88356A0F-ED1E-4ADF-8EAA-FF665864FD99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon", "Pokemon\Pokemon.csproj", "{1F46C639-F424-4EA3-A504-10E6569CC2EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data Access Layer", "3 - Data Access Layer", "{4C4EB236-29C3-4BB9-8B79-825FF075051A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonDAL", "PokemonDAL\PokemonDAL.csproj", "{70E755B8-172F-45AA-9D34-852C541979C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D38937-17A7-4491-A96B-11DD80E2DD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D38937-17A7-4491-A96B-11DD80E2DD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D38937-17A7-4491-A96B-11DD80E2DD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D38937-17A7-4491-A96B-11DD80E2DD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F46C639-F424-4EA3-A504-10E6569CC2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F46C639-F424-4EA3-A504-10E6569CC2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F46C639-F424-4EA3-A504-10E6569CC2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F46C639-F424-4EA3-A504-10E6569CC2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E755B8-172F-45AA-9D34-852C541979C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E755B8-172F-45AA-9D34-852C541979C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E755B8-172F-45AA-9D34-852C541979C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E755B8-172F-45AA-9D34-852C541979C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0D38937-17A7-4491-A96B-11DD80E2DD98} = {B035C991-5A68-49AC-8A70-3165E8BABE2C}
+		{1F46C639-F424-4EA3-A504-10E6569CC2EE} = {88356A0F-ED1E-4ADF-8EAA-FF665864FD99}
+		{70E755B8-172F-45AA-9D34-852C541979C5} = {4C4EB236-29C3-4BB9-8B79-825FF075051A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {110D86CF-9E0D-4B15-A0F5-67F0004B1987}
+	EndGlobalSection
+EndGlobal
