@@ -23,7 +23,6 @@ namespace PokemonIntegration.Component.APIConnection
 
         public async Task<string> GetResponseAsync(string endPoint)
         {
-
             using (HttpClient client = new HttpClient())
             {
                 Uri baseAddress = new Uri(_settings.ApiUrl);
