@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Component\APIConnection\" />
     <Folder Include="Component\Pokemon\DataSourceImplement\" />
     <Folder Include="Component\Pokemon\DataSourceInterfaces\" />
     <Folder Include="Component\Pokemon\DataTransferObject\" />

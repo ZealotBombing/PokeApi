@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EwT+kQdGFWo=",
+  "dgSpecHash": "PApU2WZNxzk=",
   "success": true,
   "projectFilePath": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\cfuen\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\cfuen\\.nuget\\packages\\octokit\\14.0.0\\octokit.14.0.0.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []

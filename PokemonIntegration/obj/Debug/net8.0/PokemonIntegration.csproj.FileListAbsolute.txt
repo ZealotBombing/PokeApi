@@ -1,0 +1,12 @@
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\bin\Debug\net8.0\PokemonIntegration.deps.json
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\bin\Debug\net8.0\PokemonIntegration.dll
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\bin\Debug\net8.0\PokemonIntegration.pdb
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.AssemblyInfoInputs.cache
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.AssemblyInfo.cs
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.csproj.CoreCompileInputs.cache
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.sourcelink.json
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.dll
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\refint\PokemonIntegration.dll
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.pdb
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\ref\PokemonIntegration.dll

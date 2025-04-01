@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using PokemonIntegration.Component.APIConnection;
 
 namespace TestProject1
 {
     internal class PokemonTest
     {
+        [Test]
+        public void GetPokemon()
+        {
+            ApiConnection  apiConnection = new ApiConnection();
+            apiConnection.GetResponseAsync(); 
+        }
+
     }
 }
