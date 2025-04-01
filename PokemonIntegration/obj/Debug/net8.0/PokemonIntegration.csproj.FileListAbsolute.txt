@@ -10,3 +10,5 @@ C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonI
 C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\refint\PokemonIntegration.dll
 C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.pdb
 C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\ref\PokemonIntegration.dll
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\obj\Debug\net8.0\PokemonIntegration.csproj.AssemblyReference.cache
+C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\bin\Debug\net8.0\Configuration\Settings\AppSettings.config

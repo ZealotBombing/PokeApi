@@ -7,9 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Configuration\AppSettings.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Component\Pokemon\DataSourceImplement\" />
     <Folder Include="Component\Pokemon\DataSourceInterfaces\" />
     <Folder Include="Component\Pokemon\DataTransferObject\" />
+    <Folder Include="Configuration\Settings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graph" Version="5.75.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PokeApi\PokeApi.csproj" />
   </ItemGroup>
 
 </Project>
