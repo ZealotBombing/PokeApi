@@ -47,8 +47,7 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T04:28:24.97Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "PokemonIntegration\\Component\\APIConnection\\ApiConnection.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAvwDEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T05:30:42.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T05:30:42.132Z"
             },
             {
               "$type": "Document",
