@@ -15,9 +15,8 @@ namespace TestProject1
             
             var apiConnection = new ApiConnection();
 
-            PokemonApiResultDto data = apiConnection.GetResponseAsync<PokemonApiResultDto>("pokemon/1").GetAwaiter().GetResult();
+            var data = apiConnection.GetResponseAsync<PokemonApiResultDto>("pokemon/1").GetAwaiter().GetResult();
 
-            var prop = data.
         }
 
     }
