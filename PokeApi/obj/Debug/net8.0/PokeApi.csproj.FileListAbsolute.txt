@@ -16,6 +16,7 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.AssemblyInf
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.csproj.CoreCompileInputs.cache
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.sourcelink.json
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets\msbuild.PokeApi.Microsoft.AspNetCore.StaticWebAssets.props
@@ -30,4 +31,3 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\refint\PokeApi.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.pdb
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.genruntimeconfig.cache
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\ref\PokeApi.dll
-C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.sourcelink.json
