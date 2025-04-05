@@ -24,9 +24,9 @@ namespace PokemonIntegration.Component.Pokemon.DataTransferObject
         public List<PokemonMoveApiResultDto> moves { get; set; }
         public List<PokemonTypePastApiResultDto> past_types { get; set; }
         public PokemonSpritesApiResultDto sprites { get; set; }
+        public PokemonCriesApiResultDto cries { get; set; }
 
         //TODO: stats
-        public List<PokemonCriesApiResultDto> cries { get; set; }
 
         public List<PokemonTypeApiResultDto> types { get; set; }
     }
