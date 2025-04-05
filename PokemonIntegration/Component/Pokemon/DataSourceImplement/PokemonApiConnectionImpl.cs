@@ -1,6 +1,7 @@
 ﻿using PokemonIntegration.Component.APIConnection;
 using PokemonIntegration.Component.Pokemon.DataSourceInterfaces;
 using PokemonIntegration.Component.Pokemon.DataTransferObject;
+using PokemonIntegration.Component.Pokemon.PokeApiEndPointName;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,10 +19,12 @@ namespace PokemonIntegration.Component.Pokemon.DataSourceImplement
             _apiConnection = new ApiConnection();
         }
 
-        public PokemonApiResultDto GetPokemon() { 
+        public async Task<PokemonApiResultDto> GetPokemon(string pokeId) {
 
+            var pokemon = await _apiConnection
+                .GetResponseAsync<PokemonApiResultDto>($"{PokeApiEndPointName.PokeApiEndPointName.PokemonEndonpint}{pokeId}");
 
-            return new PokemonApiResultDto(); 
+            return pokemon; 
         
         }
 
