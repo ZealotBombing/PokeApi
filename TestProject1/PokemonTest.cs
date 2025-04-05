@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
 using PokeApi;
 
 using PokemonIntegration.Component.APIConnection;
@@ -7,12 +8,13 @@ namespace TestProject1
 {
     internal class PokemonTest
     {
-        private readonly MyService _myService;
-
         [Test]
         public void GetPokemon()
         {
-            ApiConnection  apiConnection = new ApiConnection();
+            var settings = new ApiSettings() { PokeApiHost = "https://pokeapi.co/api/v2/" };
+            var options = Options.Create(settings);
+            var apiConnection = new ApiConnection(options);
+
             var data = apiConnection.GetResponseAsync("pokemon/1").GetAwaiter().GetResult(); 
         }
 

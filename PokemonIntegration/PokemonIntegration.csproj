@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Component\Pokemon\DataSourceImplement\" />
     <Folder Include="Component\Pokemon\DataSourceInterfaces\" />
-    <Folder Include="Component\Pokemon\DataTransferObject\" />
     <Folder Include="Configuration\Settings\" />
   </ItemGroup>
 

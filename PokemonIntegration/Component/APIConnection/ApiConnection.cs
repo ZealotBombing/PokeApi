@@ -14,9 +14,9 @@ namespace PokemonIntegration.Component.APIConnection
 {
     public class ApiConnection
     {
-        private readonly MySettings _settings;
+        private readonly ApiSettings _settings;
 
-        public ApiConnection(IOptions<MySettings> settings)
+        public ApiConnection(IOptions<ApiSettings> settings)
         {
             _settings = settings.Value;
         }
@@ -25,7 +25,7 @@ namespace PokemonIntegration.Component.APIConnection
         {
             using (HttpClient client = new HttpClient())
             {
-                Uri baseAddress = new Uri(_settings.ApiUrl);
+                Uri baseAddress = new Uri(_settings.PokeApiHost);
                 client.BaseAddress = baseAddress;
 
                 HttpResponseMessage httpResponseMessage = await client.GetAsync(endPoint);
