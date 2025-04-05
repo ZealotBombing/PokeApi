@@ -15,7 +15,8 @@ namespace TestProject1
             var options = Options.Create(settings);
             var apiConnection = new ApiConnection(options);
 
-            var data = apiConnection.GetResponseAsync("pokemon/1").GetAwaiter().GetResult(); 
+            var data = apiConnection.GetResponseAsync("pokemon/1").GetAwaiter().GetResult();
+
         }
 
     }
