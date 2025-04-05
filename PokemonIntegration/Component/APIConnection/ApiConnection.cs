@@ -1,40 +1,48 @@
 ﻿using Microsoft.Extensions.Options;
 using Microsoft.Graph;
 using Microsoft.Graph.Models;
+using Newtonsoft.Json;
 using PokeApi;
+using PokemonIntegration.Component.Pokemon.DataSourceInterfaces;
+using PokemonIntegration.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
+using System.Net.Http.Json;
 using System.Runtime;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace PokemonIntegration.Component.APIConnection
 {
-    public class ApiConnection
+    public class ApiConnection: IApiConnection
     {
-        private readonly ApiSettings _settings;
+        private readonly string _pokeHost;
 
-        public ApiConnection(IOptions<ApiSettings> settings)
+        public ApiConnection()
         {
-            _settings = settings.Value;
+            _pokeHost = ClientConfigReader.GetApiHost();
         }
 
-        public async Task<string> GetResponseAsync(string endPoint)
+        public async Task<T> GetResponseAsync<T>(string endPoint)
         {
-            using (HttpClient client = new HttpClient())
+            using (HttpClient pokeClient = new HttpClient())
             {
-                Uri baseAddress = new Uri(_settings.PokeApiHost);
-                client.BaseAddress = baseAddress;
+                Uri baseAddress = new Uri(_pokeHost);
+                pokeClient.BaseAddress = baseAddress;
 
-                HttpResponseMessage httpResponseMessage = await client.GetAsync(endPoint);
+                HttpResponseMessage httpResponseMessage = await pokeClient.GetAsync(endPoint);
 
                 if (httpResponseMessage.IsSuccessStatusCode)
                 {
-                    string data = await client.GetStringAsync(endPoint);
+                    string pokeJson = await httpResponseMessage.Content.ReadAsStringAsync();
+                    
+                    var pokeData = JsonConvert.DeserializeObject<T>(pokeJson);
 
-                    return data;
+                    return pokeData;
                 }
 
                 throw new Exception("Error in request");

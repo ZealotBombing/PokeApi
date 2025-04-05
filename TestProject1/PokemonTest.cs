@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using PokeApi;
 
 using PokemonIntegration.Component.APIConnection;
+using PokemonIntegration.Component.Pokemon.DataTransferObject;
 
 namespace TestProject1
 {
@@ -11,12 +12,12 @@ namespace TestProject1
         [Test]
         public void GetPokemon()
         {
-            var settings = new ApiSettings() { PokeApiHost = "https://pokeapi.co/api/v2/" };
-            var options = Options.Create(settings);
-            var apiConnection = new ApiConnection(options);
+            
+            var apiConnection = new ApiConnection();
 
-            var data = apiConnection.GetResponseAsync("pokemon/1").GetAwaiter().GetResult();
+            PokemonApiResultDto data = apiConnection.GetResponseAsync<PokemonApiResultDto>("pokemon/1").GetAwaiter().GetResult();
 
+            var prop = data.
         }
 
     }

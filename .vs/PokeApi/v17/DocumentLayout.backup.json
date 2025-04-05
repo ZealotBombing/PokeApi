@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokemonintegration\\component\\pokemon\\datatransferobject\\pokemonapiresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|solutionrelative:pokemonintegration\\component\\pokemon\\datatransferobject\\pokemonapiresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokemonintegration\\component\\apiconnection\\apiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|solutionrelative:pokemonintegration\\component\\apiconnection\\apiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3}|TestProject1\\TestProject1.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\testproject1\\pokemontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C5A618D-1E9E-449C-AE5C-03A28A3A92F3}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\pokemontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|solutionrelative:pokeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokeapi\\configurationreader\\clientconfigreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|solutionrelative:pokeapi\\configurationreader\\clientconfigreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokeapi\\configuration\\servicemodel\\client.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|solutionrelative:pokeapi\\configuration\\servicemodel\\client.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokemonintegration\\component\\pokemon\\datatransferobject\\pokemonapiresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|solutionrelative:pokemonintegration\\component\\pokemon\\datatransferobject\\pokemonapiresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokemonintegration\\component\\pokemon\\datasourceimplement\\pokemonapiconnectionimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|solutionrelative:pokemonintegration\\component\\pokemon\\datasourceimplement\\pokemonapiconnectionimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|solutionrelative:pokeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokemonintegration\\component\\pokemon\\datasourceinterfaces\\iapiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B58AAF1-1198-4891-946E-1C28801BC8E6}|PokemonIntegration\\PokemonIntegration.csproj|solutionrelative:pokemonintegration\\component\\pokemon\\datasourceinterfaces\\iapiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0D38937-17A7-4491-A96B-11DD80E2DD98}|PokeApi\\PokeApi.csproj|c:\\users\\cfuen\\source\\repos\\pokeapi\\pokeapi\\areas\\controllers\\pokemoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PokemonApiResultDto.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\Pokemon\\DataTransferObject\\PokemonApiResultDto.cs",
               "RelativeDocumentMoniker": "PokemonIntegration\\Component\\Pokemon\\DataTransferObject\\PokemonApiResultDto.cs",
               "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\Pokemon\\DataTransferObject\\PokemonApiResultDto.cs",
               "RelativeToolTip": "PokemonIntegration\\Component\\Pokemon\\DataTransferObject\\PokemonApiResultDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T04:28:24.97Z",
               "IsPinned": true,
@@ -52,28 +68,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientConfigReader.cs",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\ConfigurationReader\\ClientConfigReader.cs",
+              "RelativeDocumentMoniker": "PokeApi\\ConfigurationReader\\ClientConfigReader.cs",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\ConfigurationReader\\ClientConfigReader.cs",
+              "RelativeToolTip": "PokeApi\\ConfigurationReader\\ClientConfigReader.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:26:22.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Client.config",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\Configuration\\ServiceModel\\Client.config",
+              "RelativeDocumentMoniker": "PokeApi\\Configuration\\ServiceModel\\Client.config",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\Configuration\\ServiceModel\\Client.config",
+              "RelativeToolTip": "PokeApi\\Configuration\\ServiceModel\\Client.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-05T06:02:51.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IApiConnection.cs",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\Pokemon\\DataSourceInterfaces\\IApiConnection.cs",
+              "RelativeDocumentMoniker": "PokemonIntegration\\Component\\Pokemon\\DataSourceInterfaces\\IApiConnection.cs",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\Pokemon\\DataSourceInterfaces\\IApiConnection.cs",
+              "RelativeToolTip": "PokemonIntegration\\Component\\Pokemon\\DataSourceInterfaces\\IApiConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:40:09.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokemonApiConnectionImpl.cs",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\Pokemon\\DataSourceImplement\\PokemonApiConnectionImpl.cs",
+              "RelativeDocumentMoniker": "PokemonIntegration\\Component\\Pokemon\\DataSourceImplement\\PokemonApiConnectionImpl.cs",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\Pokemon\\DataSourceImplement\\PokemonApiConnectionImpl.cs",
+              "RelativeToolTip": "PokemonIntegration\\Component\\Pokemon\\DataSourceImplement\\PokemonApiConnectionImpl.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:38:34.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiConnection.cs",
+              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\APIConnection\\ApiConnection.cs",
+              "RelativeDocumentMoniker": "PokemonIntegration\\Component\\APIConnection\\ApiConnection.cs",
+              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\Component\\APIConnection\\ApiConnection.cs",
+              "RelativeToolTip": "PokemonIntegration\\Component\\APIConnection\\ApiConnection.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAArwCYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:30:42.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\Program.cs",
               "RelativeDocumentMoniker": "PokeApi\\Program.cs",
               "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\Program.cs",
               "RelativeToolTip": "PokeApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T03:42:55.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\appsettings.json",
-              "RelativeDocumentMoniker": "PokeApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\appsettings.json",
-              "RelativeToolTip": "PokeApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-05T03:21:38.627Z",
               "EditorCaption": ""
             },
             {
@@ -84,14 +152,14 @@
               "RelativeDocumentMoniker": "TestProject1\\PokemonTest.cs",
               "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\TestProject1\\PokemonTest.cs",
               "RelativeToolTip": "TestProject1\\PokemonTest.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T06:11:17.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PokemonController.cs",
               "DocumentMoniker": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokeApi\\Areas\\Controllers\\PokemonController.cs",
               "RelativeDocumentMoniker": "PokeApi\\Areas\\Controllers\\PokemonController.cs",

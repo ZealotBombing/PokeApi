@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9NN5SJsU6o4=",
+  "dgSpecHash": "ymkcwGp5FwI=",
   "success": true,
   "projectFilePath": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\PokemonIntegration\\PokemonIntegration.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\cfuen\\.nuget\\packages\\microsoft.kiota.serialization.multipart\\1.17.1\\microsoft.kiota.serialization.multipart.1.17.1.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\microsoft.kiota.serialization.text\\1.17.1\\microsoft.kiota.serialization.text.1.17.1.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\cfuen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\std.uritemplate\\2.0.1\\std.uritemplate.2.0.1.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\cfuen\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
