@@ -29,6 +29,7 @@ namespace Pokemon.Component.BusinessMapper
             dto.CryAudioSourceLegacy = pokemonApiData.cries.legacy;
             dto.CryAudioSourceLatest = pokemonApiData.cries.latest;
             dto.Types = PokemonTypeMapper.ToDto(pokemonApiData.types);
+            dto.Past_types = PokemonTypePastMapper.ToDto(pokemonApiData.past_types);
 
             return dto;
         }
