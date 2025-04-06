@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace PokemonIntegration.Component.Pokemon.DataSourceImplement
 {
-    public class PokemonApiConnectionImpl
+    public class PokemonApiConnectionImpl : IPokemonApiConnectionImpl
     {
         private readonly IApiConnection _apiConnection;
 
