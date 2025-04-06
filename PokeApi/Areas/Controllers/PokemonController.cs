@@ -1,4 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Pokemon.Component.BusinessImplement;
+using Pokemon.Component.DataTransferObject;
+using Pokemon.Component.Interfaces;
+using Swashbuckle.AspNetCore.Examples;
 
 namespace PokeApi.Areas.Controller
 {
@@ -6,10 +10,27 @@ namespace PokeApi.Areas.Controller
     [Route("[controller]")]
     public class PokemonController : ControllerBase
     {
-        [HttpGet("Pokemon")]
-        public IEnumerable<String> GetStrings()
+        IPokemonImplementation _pokemonImplementation;
+
+        public PokemonController()
         {
-            return new string[] { "Fernanda", "Piña" };
+            _pokemonImplementation = new PokemonImplementation();
+        }
+
+        [HttpGet("Pokemon")]
+        [SwaggerResponseExample(200, typeof(PokemonDto))]
+        public async Task<IActionResult> GetPokemon(string pokeId)
+        {
+            try
+            {
+                var pokemon = await _pokemonImplementation.GetPokemon(pokeId);
+
+                return Ok(pokemon);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new {Message = ex.Message});
+            }
         }
         
     }

@@ -9,9 +9,9 @@
   <ItemGroup>
     <Folder Include="Component\Helper\" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\PokemonIntegration\PokemonIntegration.csproj" />
-  </ItemGroup>
-
+	
+	<ItemGroup>
+		<ProjectReference Include="..\PokemonIntegration\PokemonIntegration.csproj" />
+	</ItemGroup>
+	
 </Project>
