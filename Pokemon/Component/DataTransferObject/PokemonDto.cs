@@ -16,8 +16,8 @@ namespace Pokemon.Component.DataTransferObject
         public bool Is_default { get; set; }
         public int Order { get; set; }
         public int Weight { get; set; }
-        public List<PokemonAbilityApiResultDto> Abilities { get; set; }
-        public List<PokemonFormTypeApiResultDto> Forms { get; set; }
+        public List<PokemonAbilityDto> Abilities { get; set; }
+        public List<PokemonFormTypeDto> Forms { get; set; }
 
         //TODO: game_indices
         public List<PokemonHeldItemApiResultDto> Held_items { get; set; }
