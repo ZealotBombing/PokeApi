@@ -33,7 +33,7 @@ namespace TestProject1
         {
             var pokemonImpl = new PokemonImplementation();
 
-            var data = pokemonImpl.GetPokemon("1");
+            var data = pokemonImpl.GetPokemon("1").GetAwaiter().GetResult();
         }
 
     }
