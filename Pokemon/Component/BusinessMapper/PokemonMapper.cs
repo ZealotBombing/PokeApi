@@ -16,11 +16,13 @@ namespace Pokemon.Component.BusinessMapper
             dto.Id = pokemonApiData.id;
             dto.Name = pokemonApiData.name;
             dto.Base_experience = pokemonApiData.base_experience;
+            dto.Height = pokemonApiData.height;
             dto.Is_default = pokemonApiData.is_default;
             dto.Order = pokemonApiData.order;
             dto.Weight = pokemonApiData.weight;
             dto.Abilities = PokemonAbilityMapper.ToDto(pokemonApiData.abilities);
             dto.Forms = PokemonFormTypeMapper.ToDto(pokemonApiData.forms);
+            dto.Location_area_encounters = pokemonApiData.location_area_encounters;
             dto.Held_items = PokemonHeldItemMapper.ToDto(pokemonApiData.held_items);
             dto.Moves = PokemonMoveMapper.ToDto(pokemonApiData.moves);
             dto.Sprites = PokemonSpritesMapper.ToDto(pokemonApiData.sprites);
