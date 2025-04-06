@@ -25,10 +25,11 @@ namespace Pokemon.Component.DataTransferObject
         public List<PokemonMoveDto> Moves { get; set; }
         public List<PokemonTypePastDto> Past_types { get; set; }
         public PokemonSpritesDto Sprites { get; set; }
-        public string CryAudioSource { get; set; }
+        public string CryAudioSourceLegacy { get; set; }
+        public string CryAudioSourceLatest { get; set; }
 
         //TODO: stats
 
-        public List<PokemonTypePastDto> Types { get; set; }
+        public List<PokemonTypeDto> Types { get; set; }
     }
 }

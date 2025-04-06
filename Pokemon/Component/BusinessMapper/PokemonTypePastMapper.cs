@@ -10,6 +10,8 @@ namespace Pokemon.Component.BusinessMapper
 {
     internal static class PokemonTypePastMapper
     {
+        public static List<PokemonTypePastDto> ToDto(List<PokemonTypePastApiResultDto> pokemonTypePast)
+            => pokemonTypePast.Select(ToDto).ToList();
         public static PokemonTypePastDto ToDto(PokemonTypePastApiResultDto typePastsData)
         {
             PokemonTypePastDto dto = new PokemonTypePastDto();

@@ -23,6 +23,10 @@ namespace Pokemon.Component.BusinessMapper
             dto.Forms = PokemonFormTypeMapper.ToDto(pokemonApiData.forms);
             dto.Held_items = PokemonHeldItemMapper.ToDto(pokemonApiData.held_items);
             dto.Moves = PokemonMoveMapper.ToDto(pokemonApiData.moves);
+            dto.Sprites = PokemonSpritesMapper.ToDto(pokemonApiData.sprites);
+            dto.CryAudioSourceLegacy = pokemonApiData.cries.legacy;
+            dto.CryAudioSourceLatest = pokemonApiData.cries.latest;
+            dto.Types = PokemonTypeMapper.ToDto(pokemonApiData.types);
 
             return dto;
         }
