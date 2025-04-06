@@ -1,8 +1,6 @@
-﻿using Microsoft.Extensions.Options;
-using Microsoft.Graph;
+﻿using Microsoft.Graph;
 using Microsoft.Graph.Models;
 using Newtonsoft.Json;
-using PokeApi;
 using PokemonIntegration.Component.Pokemon.DataSourceInterfaces;
 using PokemonIntegration.Configuration;
 using System;
