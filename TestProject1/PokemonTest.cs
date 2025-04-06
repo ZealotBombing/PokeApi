@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using PokeApi;
-
+using Pokemon.Component.BusinessImplement;
 using PokemonIntegration.Component.APIConnection;
 using PokemonIntegration.Component.Pokemon.DataSourceImplement;
 using PokemonIntegration.Component.Pokemon.DataTransferObject;
@@ -26,6 +26,14 @@ namespace TestProject1
             var pokemonImpl = new PokemonApiConnectionImpl();
 
             var pokemonData = pokemonImpl.GetPokemon("3").GetAwaiter().GetResult();
+        }
+
+        [Test]
+        public void GetPokemonFromBLLImplementatio()
+        {
+            var pokemonImpl = new PokemonImplementation();
+
+            var data = pokemonImpl.GetPokemon("1");
         }
 
     }

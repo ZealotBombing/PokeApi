@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PokemonIntegration\PokemonIntegration.csproj" />
+    <ProjectReference Include="..\Pokemon\Pokemon.csproj" />
   </ItemGroup>
 
   <ItemGroup>
