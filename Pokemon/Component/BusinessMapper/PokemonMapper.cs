@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Pokemon.Component.BusinessMapper
 {
-    public static class PokemonMapper
+    internal static class PokemonMapper
     {
         public static PokemonDto ToDto(PokemonApiResultDto pokemonApiData)
         {
@@ -19,6 +19,10 @@ namespace Pokemon.Component.BusinessMapper
             dto.Is_default = pokemonApiData.is_default;
             dto.Order = pokemonApiData.order;
             dto.Weight = pokemonApiData.weight;
+            dto.Abilities = PokemonAbilityMapper.ToDto(pokemonApiData.abilities);
+            dto.Forms = PokemonFormTypeMapper.ToDto(pokemonApiData.forms);
+            dto.Held_items = PokemonHeldItemMapper.ToDto(pokemonApiData.held_items);
+            dto.Moves = PokemonMoveMapper.ToDto(pokemonApiData.moves);
 
             return dto;
         }

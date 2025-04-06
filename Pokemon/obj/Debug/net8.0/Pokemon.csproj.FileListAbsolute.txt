@@ -10,3 +10,4 @@ C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\Pokemon.dll
 C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\refint\Pokemon.dll
 C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\Pokemon.pdb
 C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\ref\Pokemon.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\Pokemon.csproj.AssemblyReference.cache
