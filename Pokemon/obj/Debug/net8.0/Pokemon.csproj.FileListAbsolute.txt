@@ -10,3 +10,16 @@ C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\Pokemon.dll
 C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\refint\Pokemon.dll
 C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\Pokemon.pdb
 C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\ref\Pokemon.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\Pokemon.csproj.AssemblyReference.cache
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\PokeApi.deps.json
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\PokeApi.runtimeconfig.json
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\Configuration\Settings\ConnectionString.config
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\appsettings.json
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\PokeApi.exe
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\Configuration\ServiceModel\Client.config
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\PokeApi.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\PokemonIntegration.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\PokemonIntegration.pdb
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Debug\net8.0\PokeApi.pdb
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Debug\net8.0\Pokemon.csproj.Up2Date
