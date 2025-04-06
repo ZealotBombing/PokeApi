@@ -1,5 +1,6 @@
 ﻿using Pokemon.Component.BusinessMapper;
 using Pokemon.Component.DataTransferObject;
+using Pokemon.Component.Interfaces;
 using PokemonIntegration.Component.Pokemon.DataSourceImplement;
 using PokemonIntegration.Component.Pokemon.DataSourceInterfaces;
 using System;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Pokemon.Component.BusinessImplement
 {
-    public class PokemonImplementation
+    public class PokemonImplementation : IPokemonImplementation
     {
         private IPokemonApiConnectionImpl _pokemonApiConnectionImpl;
 
