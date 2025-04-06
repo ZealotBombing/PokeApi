@@ -2,7 +2,7 @@
 using Pokemon.Component.BusinessImplement;
 using Pokemon.Component.DataTransferObject;
 using Pokemon.Component.Interfaces;
-using Swashbuckle.AspNetCore.Examples;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace PokeApi.Areas.Controller
 {

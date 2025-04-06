@@ -59,7 +59,6 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Microsoft.Kiota.Ser
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Text.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Std.UriTemplate.dll
-C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Examples.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\System.Memory.Data.dll
@@ -67,3 +66,7 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Pokemon.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\PokemonIntegration.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Pokemon.pdb
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\PokemonIntegration.pdb
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Scrutor.dll
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
