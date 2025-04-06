@@ -8,5 +8,6 @@ namespace Pokemon.Component.BusinessMapper
 {
     public static class PokemonMapper
     {
+
     }
 }
