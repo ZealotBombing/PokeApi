@@ -11,6 +11,7 @@ namespace PokeApi.Areas.Controller
     public class PokemonController : ControllerBase
     {
         IPokemonImplementation _pokemonImplementation;
+        ILogger _logger;
 
         public PokemonController()
         {
