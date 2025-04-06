@@ -20,15 +20,15 @@ namespace Pokemon.Component.DataTransferObject
         public List<PokemonFormTypeDto> Forms { get; set; }
 
         //TODO: game_indices
-        public List<PokemonHeldItemApiResultDto> Held_items { get; set; }
+        public List<PokemonHeldItemDto> Held_items { get; set; }
         public string Location_area_encounters { get; set; }
-        public List<PokemonMoveApiResultDto> Moves { get; set; }
-        public List<PokemonTypePastApiResultDto> Past_types { get; set; }
-        public PokemonSpritesApiResultDto Sprites { get; set; }
+        public List<PokemonMoveDto> Moves { get; set; }
+        public List<PokemonTypePastDto> Past_types { get; set; }
+        public PokemonSpritesDto Sprites { get; set; }
         public string CryAudioSource { get; set; }
 
         //TODO: stats
 
-        public List<PokemonTypeApiResultDto> types { get; set; }
+        public List<PokemonTypePastDto> Types { get; set; }
     }
 }
