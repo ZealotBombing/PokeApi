@@ -1,4 +1,6 @@
-﻿using PokemonIntegration.Component.Pokemon.DataSourceImplement;
+﻿using Pokemon.Component.BusinessMapper;
+using Pokemon.Component.DataTransferObject;
+using PokemonIntegration.Component.Pokemon.DataSourceImplement;
 using PokemonIntegration.Component.Pokemon.DataSourceInterfaces;
 using System;
 using System.Collections.Generic;
@@ -18,11 +20,7 @@ namespace Pokemon.Component.BusinessImplement
 
         }
 
-        public object GetPokemon(string pokeId)
-        {
-            
-
-            return new { };
-        }
+        public async Task<PokemonDto> GetPokemon(string pokeId)
+            => PokemonMapper.ToDto(await _pokemonApiConnectionImpl.GetPokemon(pokeId));
     }
 }
