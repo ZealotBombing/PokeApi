@@ -1,0 +1,4 @@
+2025-04-11 20:34:50.9376|INFO|PokeApi.Areas.Controller.PokemonController|System.Exception: Exception of type 'System.Exception' was thrown.
+   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
+2025-04-11 20:47:09.9369|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon3
+2025-04-11 20:47:10.9169|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of venusaur ready

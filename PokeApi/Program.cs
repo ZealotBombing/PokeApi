@@ -1,9 +1,19 @@
+using NLog;
 using PokeApi;
 using System.Runtime;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var logger = NLog.LogManager.Setup()
+    .LoadConfigurationFromFile("NLog.config")
+    .GetCurrentClassLogger();
+
+
 // Add services to the container.
+
+// Remove default logging providers and set the minimum level.
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
