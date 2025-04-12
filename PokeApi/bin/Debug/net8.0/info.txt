@@ -10,3 +10,5 @@
 2025-04-11 23:59:29.0863|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
 2025-04-12 00:00:21.2317|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
 2025-04-12 00:00:21.8800|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-04-12 00:24:34.4603|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-04-12 00:24:35.4876|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready

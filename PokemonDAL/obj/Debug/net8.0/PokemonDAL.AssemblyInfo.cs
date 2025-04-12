@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonDAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4762e519fe48280769a066d823cffd868156b501")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd96d346ecd1a4e612bc285f0293ec1f43f09ef7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonDAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonDAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
