@@ -22,16 +22,16 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection("MySettings"));
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        policy =>
-        {
-            policy.AllowAnyOrigin()
-                  .AllowAnyMethod()
-                  .AllowAnyHeader();
-        });
-});
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAll",
+//        policy =>
+//        {
+//            policy.AllowAnyOrigin()
+//                  .AllowAnyMethod()
+//                  .AllowAnyHeader();
+//        });
+//});
 
 var app = builder.Build();
 
