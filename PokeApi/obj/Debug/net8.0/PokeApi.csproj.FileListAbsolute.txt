@@ -70,3 +70,6 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Microsoft.Extension
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Scrutor.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Configuration\Settings\AppSettings.config
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\Nlog.config
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\NLog.dll
