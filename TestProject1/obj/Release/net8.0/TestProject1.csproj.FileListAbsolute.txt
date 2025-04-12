@@ -1,0 +1,7 @@
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\bin\Release\net8.0\CoverletSourceRootsMapping_TestProject1
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Release\net8.0\TestProject1.csproj.AssemblyReference.cache
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Release\net8.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Release\net8.0\TestProject1.AssemblyInfoInputs.cache
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Release\net8.0\TestProject1.AssemblyInfo.cs
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Release\net8.0\TestProject1.csproj.CoreCompileInputs.cache
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Release\net8.0\TestProject1.sourcelink.json

@@ -1,0 +1,16 @@
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Release\net8.0\Pokemon.deps.json
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Release\net8.0\Pokemon.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Release\net8.0\Pokemon.pdb
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Release\net8.0\PokemonIntegration.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\bin\Release\net8.0\PokemonIntegration.pdb
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.csproj.AssemblyReference.cache
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.AssemblyInfoInputs.cache
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.AssemblyInfo.cs
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.sourcelink.json
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.csproj.Up2Date
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\refint\Pokemon.dll
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\Pokemon.pdb
+C:\Users\cfuen\source\repos\PokeApi\Pokemon\obj\Release\net8.0\ref\Pokemon.dll

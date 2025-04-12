@@ -1,0 +1,3 @@
+C:\Users\cfuen\source\repos\PokeApi\publish\PokemonDAL.dll
+C:\Users\cfuen\source\repos\PokeApi\publish\PokemonDAL.deps.json
+C:\Users\cfuen\source\repos\PokeApi\publish\PokemonDAL.pdb

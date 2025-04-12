@@ -54,8 +54,7 @@
               "RelativeToolTip": "PokemonIntegration\\Component\\APIConnection\\ApiConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:16:55.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T18:16:55.612Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "PokeApi\\PokeApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T18:01:05.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T18:01:05.272Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "PokeApi\\Areas\\Controllers\\PokemonController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T17:34:17.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T17:34:17.11Z"
             },
             {
               "$type": "Document",
@@ -91,7 +88,7 @@
               "RelativeDocumentMoniker": "Pokemon\\Component\\BusinessImplement\\PokemonImplementation.cs",
               "ToolTip": "C:\\Users\\cfuen\\source\\repos\\PokeApi\\Pokemon\\Component\\BusinessImplement\\PokemonImplementation.cs",
               "RelativeToolTip": "Pokemon\\Component\\BusinessImplement\\PokemonImplementation.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T06:15:00.851Z",
               "EditorCaption": ""
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Pokemon\\Component\\BusinessMapper\\PokemonTypePastMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:55:24.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:55:24.515Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Pokemon\\Component\\BusinessMapper\\PokemonMapper.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:47:25.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:47:25.739Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Pokemon\\Component\\DataTransferObject\\PokemonDto.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:22:00.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:22:00.454Z"
             }
           ]
         }
