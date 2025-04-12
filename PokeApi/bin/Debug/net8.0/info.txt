@@ -2,3 +2,11 @@
    at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
 2025-04-11 20:47:09.9369|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon3
 2025-04-11 20:47:10.9169|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of venusaur ready
+2025-04-11 23:58:46.6069|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-04-11 23:58:47.4524|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-04-11 23:59:03.7140|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 2
+2025-04-11 23:59:04.3619|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of IVYSAUR ready
+2025-04-11 23:59:28.3613|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-04-11 23:59:29.0863|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-04-12 00:00:21.2317|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-04-12 00:00:21.8800|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
