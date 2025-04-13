@@ -12,3 +12,5 @@
 2025-04-12 00:00:21.8800|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
 2025-04-12 00:24:34.4603|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
 2025-04-12 00:24:35.4876|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-04-12 21:24:37.9203|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 36
+2025-04-12 21:24:39.0103|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CLEFABLE ready
