@@ -23,3 +23,18 @@
    at Pokemon.Component.BusinessMapper.PokemonMapper.ToDto(PokemonApiResultDto pokemonApiData) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonMapper.cs:line 23
    at Pokemon.Component.BusinessImplement.PokemonImplementation.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessImplement\PokemonImplementation.cs:line 25
    at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
+2025-04-16 23:35:30.9167|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon ?offset=80&limit=20
+2025-04-16 23:35:31.9779|ERROR|PokeApi.Areas.Controller.PokemonController|ERROR: Value cannot be null. (Parameter 'source'). Stack Trace:    at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at Pokemon.Component.BusinessMapper.PokemonAbilityMapper.ToDto(List`1 ablitityList) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonAbilityMapper.cs:line 14
+   at Pokemon.Component.BusinessMapper.PokemonMapper.ToDto(PokemonApiResultDto pokemonApiData) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonMapper.cs:line 23
+   at Pokemon.Component.BusinessImplement.PokemonImplementation.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessImplement\PokemonImplementation.cs:line 25
+   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
+2025-04-16 23:35:51.8295|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-04-16 23:35:52.6962|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-04-16 23:35:57.2189|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 5
+2025-04-16 23:35:58.0741|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMELEON ready
+2025-04-16 23:36:00.8232|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 80
+2025-04-16 23:36:01.7601|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of SLOWBRO ready
+2025-04-16 23:56:02.6832|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 30
+2025-04-16 23:56:13.2968|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of NIDORINA ready
