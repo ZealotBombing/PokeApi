@@ -14,3 +14,12 @@
 2025-04-12 00:24:35.4876|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
 2025-04-12 21:24:37.9203|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 36
 2025-04-12 21:24:39.0103|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CLEFABLE ready
+2025-04-12 21:57:17.2759|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-04-12 21:57:18.2150|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-04-16 23:21:27.5689|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 
+2025-04-16 23:21:34.9353|ERROR|PokeApi.Areas.Controller.PokemonController|ERROR: Value cannot be null. (Parameter 'source'). Stack Trace:    at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at Pokemon.Component.BusinessMapper.PokemonAbilityMapper.ToDto(List`1 ablitityList) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonAbilityMapper.cs:line 14
+   at Pokemon.Component.BusinessMapper.PokemonMapper.ToDto(PokemonApiResultDto pokemonApiData) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonMapper.cs:line 23
+   at Pokemon.Component.BusinessImplement.PokemonImplementation.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessImplement\PokemonImplementation.cs:line 25
+   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
