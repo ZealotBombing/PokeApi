@@ -10,3 +10,13 @@
    at Pokemon.Component.BusinessMapper.PokemonMapper.ToDto(PokemonApiResultDto pokemonApiData) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonMapper.cs:line 23
    at Pokemon.Component.BusinessImplement.PokemonImplementation.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessImplement\PokemonImplementation.cs:line 25
    at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
+2025-04-16 23:59:48.7980|ERROR|PokeApi.Areas.Controller.PokemonController|ERROR: Value cannot be null. (Parameter 'source'). Stack Trace:    at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at Pokemon.Component.BusinessMapper.PokemonAbilityMapper.ToDto(List`1 ablitityList) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonAbilityMapper.cs:line 14
+   at Pokemon.Component.BusinessMapper.PokemonMapper.ToDto(PokemonApiResultDto pokemonApiData) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessMapper\PokemonMapper.cs:line 23
+   at Pokemon.Component.BusinessImplement.PokemonImplementation.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessImplement\PokemonImplementation.cs:line 25
+   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
+2025-04-17 00:03:20.5663|ERROR|PokeApi.Areas.Controller.PokemonController|ERROR: Error in request. Stack Trace:    at PokemonIntegration.Component.APIConnection.ApiConnection.GetResponseAsync[T](String endPoint) in C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\Component\APIConnection\ApiConnection.cs:line 49
+   at PokemonIntegration.Component.Pokemon.DataSourceImplement.PokemonApiConnectionImpl.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\Component\Pokemon\DataSourceImplement\PokemonApiConnectionImpl.cs:line 24
+   at Pokemon.Component.BusinessImplement.PokemonImplementation.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessImplement\PokemonImplementation.cs:line 25
+   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
