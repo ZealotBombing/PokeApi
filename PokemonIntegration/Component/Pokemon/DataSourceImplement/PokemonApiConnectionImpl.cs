@@ -1,4 +1,5 @@
-﻿using PokemonIntegration.Component.APIConnection;
+﻿using Microsoft.Graph.Models;
+using PokemonIntegration.Component.APIConnection;
 using PokemonIntegration.Component.Pokemon.DataSourceInterfaces;
 using PokemonIntegration.Component.Pokemon.DataTransferObject;
 using PokemonIntegration.Component.Pokemon.PokeApiEndPointName;
@@ -26,6 +27,14 @@ namespace PokemonIntegration.Component.Pokemon.DataSourceImplement
 
             return pokemon; 
         
+        }
+
+        public async Task<List<PokemonApiResultDto>> GetPokemonList(int offset, int limit)
+        {
+            var pokemon = await _apiConnection
+                .GetResponseAsync<PokemonApiResultDto[]>
+                ($"{PokeApiEndPointName.PokeApiEndPointName.PokemonEndonpint}?offset={offset}&limit={limit}");
+            return pokemon.ToList();
         }
 
     }

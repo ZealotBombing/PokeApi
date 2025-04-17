@@ -10,6 +10,9 @@ namespace Pokemon.Component.BusinessMapper
 {
     internal static class PokemonMapper
     {
+        public static List<PokemonDto> ToDto( List<PokemonApiResultDto> pokemonDto)
+            => pokemonDto.Select(ToDto).ToList();
+
         public static PokemonDto ToDto(PokemonApiResultDto pokemonApiData)
         {
             PokemonDto dto = new PokemonDto();
