@@ -29,12 +29,12 @@ namespace PokemonIntegration.Component.Pokemon.DataSourceImplement
         
         }
 
-        public async Task<List<PokemonApiResultDto>> GetPokemonList(int offset, int limit)
+        public async Task<PokemonApiResultListDto> GetPokemonList(int offset, int limit)
         {
             var pokemon = await _apiConnection
-                .GetResponseAsync<PokemonApiResultDto[]>
+                .GetResponseAsync<PokemonApiResultListDto>
                 ($"{PokeApiEndPointName.PokeApiEndPointName.PokemonEndonpint}?offset={offset}&limit={limit}");
-            return pokemon.ToList();
+            return pokemon;
         }
 
     }

@@ -51,7 +51,7 @@ namespace PokeApi.Areas.Controller
 
                 var list = await _pokemonImplementation.GetPokemonList(offset, limit);
 
-                logger.Info($"INFO: data of {list.Count} ready");
+                logger.Info($"INFO: data of {list.count} ready");
 
                 return Ok(list);
             }
