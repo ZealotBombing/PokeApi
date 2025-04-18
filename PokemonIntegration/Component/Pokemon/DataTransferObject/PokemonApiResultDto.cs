@@ -29,5 +29,7 @@ namespace PokemonIntegration.Component.Pokemon.DataTransferObject
         //TODO: stats
 
         public List<PokemonTypeApiResultDto> types { get; set; }
+
+        public string url { get; set; } //Solo para lista
     }
 }

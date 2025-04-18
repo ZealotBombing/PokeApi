@@ -40,6 +40,26 @@ namespace PokeApi.Areas.Controller
                 return StatusCode(500, new {Message = ex.Message});
             }
         }
-        
+
+        [HttpGet("PokemonList")]
+        [SwaggerResponseExample(200, typeof(List<PokemonDto>))]
+        public async Task<IActionResult> GetPokemonList(int offset, int limit)
+        {
+            try
+            {
+                logger.Info($"INFO: getting data of pokemon list offset: {offset}, limit {limit}");
+
+                var list = await _pokemonImplementation.GetPokemonList(offset, limit);
+
+                logger.Info($"INFO: data of {list.count} ready");
+
+                return Ok(list);
+            }
+            catch (Exception ex)
+            {
+                logger.Error($"ERROR: {ex.Message}. Stack Trace: {ex.StackTrace}");
+                return StatusCode(500, new { Message = ex.Message });
+            }
+        }
     }
 }
