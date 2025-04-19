@@ -51,6 +51,11 @@ namespace PokeApi.Areas.Controller
 
                 var list = await _pokemonImplementation.GetPokemonList(offset, limit);
 
+                foreach (var pokemon in list.pokemons)
+                {
+                    pokemon.Sprites.Front_default = await _pokemonImplementation.GetSprite(pokemon);
+                }
+
                 logger.Info($"INFO: data of {list.count} ready");
 
                 return Ok(list);

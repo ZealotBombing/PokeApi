@@ -12,5 +12,6 @@ namespace Pokemon.Component.Interfaces
     {
         public Task<PokemonDto> GetPokemon(string pokeId);
         public Task<PokemonListDto> GetPokemonList(int offset, int limit);
+        public Task<string> GetSprite(PokemonDto pokemon);
     }
 }
