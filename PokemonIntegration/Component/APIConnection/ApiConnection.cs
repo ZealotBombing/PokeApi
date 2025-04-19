@@ -2,6 +2,7 @@
 using Microsoft.Graph.Models;
 using Newtonsoft.Json;
 using PokemonIntegration.Component.Pokemon.DataSourceInterfaces;
+using PokemonIntegration.Component.Pokemon.DataTransferObject;
 using PokemonIntegration.Configuration;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,28 @@ namespace PokemonIntegration.Component.APIConnection
                     var pokeData = JsonConvert.DeserializeObject<T>(pokeJson);
 
                     return pokeData;
+                }
+
+                throw new Exception("Error in request");
+            }
+        }
+
+        public async Task<String> GetSprite(string pokeUrl)
+        {
+            using (HttpClient pokeClient = new HttpClient())
+            {
+                Uri baseAddress = new Uri(pokeUrl);
+                pokeClient.BaseAddress = baseAddress;
+
+                HttpResponseMessage httpResponseMessage = await pokeClient.GetAsync(pokeUrl);
+
+                if (httpResponseMessage.IsSuccessStatusCode)
+                {
+                    string pokeJson = await httpResponseMessage.Content.ReadAsStringAsync();
+
+                    var pokeSprite = JsonConvert.DeserializeObject<PokemonApiResultDto>(pokeJson).sprites.front_default;
+
+                    return pokeSprite;
                 }
 
                 throw new Exception("Error in request");
