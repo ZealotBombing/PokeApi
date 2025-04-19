@@ -31,5 +31,6 @@ namespace Pokemon.Component.DataTransferObject
         //TODO: stats
 
         public List<PokemonTypeDto> Types { get; set; }
+        public string Url { get; set; } //just for list
     }
 }

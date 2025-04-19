@@ -12,5 +12,6 @@ namespace PokemonIntegration.Component.Pokemon.DataSourceInterfaces
     {
         public Task<PokemonApiResultDto> GetPokemon(string pokeId);
         public Task<PokemonApiResultListDto> GetPokemonList(int offset, int limit);
+        public Task<string> GetSprite(string url);
     }
 }

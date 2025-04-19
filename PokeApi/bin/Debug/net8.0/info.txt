@@ -162,3 +162,16 @@ Path 'count', line 1, position 9.. Stack Trace:    at Newtonsoft.Json.Serializat
 2025-04-18 20:28:33.1688|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
 2025-04-19 00:54:22.6303|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
 2025-04-19 00:54:23.4135|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 00:59:49.5028|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 00:59:49.9413|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 01:15:30.5552|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 01:15:31.0713|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 01:15:55.3654|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 01:16:05.2759|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 01:19:41.7605|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 01:23:10.4453|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 01:23:18.4682|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 01:24:35.0227|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 01:24:45.3909|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 02:10:00.4656|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 02:10:11.3556|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready

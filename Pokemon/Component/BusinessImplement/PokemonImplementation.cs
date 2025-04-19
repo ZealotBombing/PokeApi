@@ -25,8 +25,9 @@ namespace Pokemon.Component.BusinessImplement
             => PokemonMapper.ToDto(await _pokemonApiConnectionImpl.GetPokemon(pokeId));
 
         public async Task<PokemonListDto> GetPokemonList(int offset, int limit)
-        {
-            return PokemonListMapper.ToDto(await _pokemonApiConnectionImpl.GetPokemonList(offset, limit));
-        }
+            => PokemonListMapper.ToDto(await _pokemonApiConnectionImpl.GetPokemonList(offset, limit));
+
+        public async Task<string> GetSprite(PokemonDto pokemon)
+            => await _pokemonApiConnectionImpl.GetSprite(pokemon.Url);
     }
 }

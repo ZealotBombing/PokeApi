@@ -37,5 +37,8 @@ namespace PokemonIntegration.Component.Pokemon.DataSourceImplement
             return pokemon;
         }
 
+
+        public async Task<string> GetSprite(string url)
+            => await _apiConnection.GetSprite(url);
     }
 }
