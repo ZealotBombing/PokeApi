@@ -38,7 +38,6 @@ namespace PokemonIntegration.Component.APIConnection
                 if (httpResponseMessage.IsSuccessStatusCode)
                 {
                     string pokeJson = await httpResponseMessage.Content.ReadAsStringAsync();
-                    
                     var pokeData = JsonConvert.DeserializeObject<T>(pokeJson);
 
                     return pokeData;

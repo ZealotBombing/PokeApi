@@ -175,3 +175,17 @@ Path 'count', line 1, position 9.. Stack Trace:    at Newtonsoft.Json.Serializat
 2025-04-19 01:24:45.3909|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
 2025-04-19 02:10:00.4656|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
 2025-04-19 02:10:11.3556|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 02:13:43.5653|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 02:13:48.0019|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 19:16:22.0206|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 19:16:37.7081|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-04-19 20:05:12.2375|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 20:05:28.1451|ERROR|PokeApi.Areas.Controller.PokemonController|ERROR: Object reference not set to an instance of an object.. Stack Trace:    at PokemonIntegration.Component.APIConnection.ApiConnection.GetResponseAsync[T](String endPoint) in C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\Component\APIConnection\ApiConnection.cs:line 48
+   at PokemonIntegration.Component.Pokemon.DataSourceImplement.PokemonApiConnectionImpl.GetPokemonList(Int32 offset, Int32 limit) in C:\Users\cfuen\source\repos\PokeApi\PokemonIntegration\Component\Pokemon\DataSourceImplement\PokemonApiConnectionImpl.cs:line 34
+   at Pokemon.Component.BusinessImplement.PokemonImplementation.GetPokemonList(Int32 offset, Int32 limit) in C:\Users\cfuen\source\repos\PokeApi\Pokemon\Component\BusinessImplement\PokemonImplementation.cs:line 28
+   at PokeApi.Areas.Controller.PokemonController.GetPokemonList(Int32 offset, Int32 limit) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 52
+2025-04-19 20:05:30.6919|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 20:11:34.6894|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 20:12:44.3978|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 20:19:59.1619|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
+2025-04-19 20:20:00.1906|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
