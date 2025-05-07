@@ -152,3 +152,4 @@ C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Debug\net8.0\refint\TestPro
 C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Debug\net8.0\TestProject1.pdb
 C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Debug\net8.0\TestProject1.genruntimeconfig.cache
 C:\Users\cfuen\source\repos\PokeApi\TestProject1\obj\Debug\net8.0\ref\TestProject1.dll
+C:\Users\cfuen\source\repos\PokeApi\TestProject1\bin\Debug\net8.0\PokeApi.staticwebassets.endpoints.json

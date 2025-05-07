@@ -189,3 +189,169 @@ Path 'count', line 1, position 9.. Stack Trace:    at Newtonsoft.Json.Serializat
 2025-04-19 20:12:44.3978|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
 2025-04-19 20:19:59.1619|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon list offset: 0, limit 20
 2025-04-19 20:20:00.1906|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of 1302 ready
+2025-05-04 02:03:13.1226|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-04 02:03:13.8145|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-04 04:29:47.0954|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-04 04:29:47.8474|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-05 00:24:59.3921|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-05 00:25:00.3397|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-05 00:27:23.8116|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-05 00:27:24.5027|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-05 00:28:03.1391|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 2
+2025-05-05 00:28:03.8176|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of IVYSAUR ready
+2025-05-05 00:28:03.8176|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 3
+2025-05-05 00:28:04.6217|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of VENUSAUR ready
+2025-05-05 00:28:04.6382|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 4
+2025-05-05 00:28:05.4583|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMANDER ready
+2025-05-05 00:28:05.4717|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 5
+2025-05-05 00:28:06.1475|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMELEON ready
+2025-05-05 00:28:06.1708|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 6
+2025-05-05 00:28:07.1142|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARIZARD ready
+2025-05-05 00:28:07.1142|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 7
+2025-05-05 00:28:07.9090|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of SQUIRTLE ready
+2025-05-05 00:28:07.9090|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 8
+2025-05-05 00:28:08.5827|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WARTORTLE ready
+2025-05-05 00:28:08.5827|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 9
+2025-05-05 00:28:09.3768|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BLASTOISE ready
+2025-05-05 00:28:09.3768|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 10
+2025-05-05 00:28:09.9011|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CATERPIE ready
+2025-05-05 00:28:09.9105|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 11
+2025-05-05 00:28:10.4016|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of METAPOD ready
+2025-05-05 00:28:10.4159|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 12
+2025-05-05 00:28:11.0783|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BUTTERFREE ready
+2025-05-05 00:28:11.0985|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 13
+2025-05-05 00:28:11.5996|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WEEDLE ready
+2025-05-05 00:28:11.6175|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 14
+2025-05-05 00:28:12.1074|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of KAKUNA ready
+2025-05-05 00:28:12.1180|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 15
+2025-05-05 00:28:12.7742|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BEEDRILL ready
+2025-05-05 00:28:12.7886|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 16
+2025-05-05 00:28:13.4587|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEY ready
+2025-05-05 00:28:13.4587|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 17
+2025-05-05 00:28:14.0791|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOTTO ready
+2025-05-05 00:28:14.0878|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 18
+2025-05-05 00:28:14.7319|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOT ready
+2025-05-05 00:28:14.7399|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 19
+2025-05-05 00:28:15.3952|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATTATA ready
+2025-05-05 00:28:15.3952|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 20
+2025-05-05 00:28:16.0537|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATICATE ready
+2025-05-05 00:28:41.7957|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-05 00:28:42.5008|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-05 00:28:42.5284|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 2
+2025-05-05 00:28:43.1823|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of IVYSAUR ready
+2025-05-05 00:28:43.1963|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 3
+2025-05-05 00:28:43.9772|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of VENUSAUR ready
+2025-05-05 00:28:43.9857|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 4
+2025-05-05 00:28:44.7482|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMANDER ready
+2025-05-05 00:28:44.7709|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 5
+2025-05-05 00:28:45.4174|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMELEON ready
+2025-05-05 00:28:45.4283|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 6
+2025-05-05 00:28:46.2195|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARIZARD ready
+2025-05-05 00:28:46.2293|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 7
+2025-05-05 00:28:47.0360|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of SQUIRTLE ready
+2025-05-05 00:28:47.0360|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 8
+2025-05-05 00:28:47.6751|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WARTORTLE ready
+2025-05-05 00:28:47.6751|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 9
+2025-05-05 00:28:48.4601|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BLASTOISE ready
+2025-05-05 00:28:48.4923|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 10
+2025-05-05 00:28:48.9972|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CATERPIE ready
+2025-05-05 00:28:49.0074|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 11
+2025-05-05 00:28:49.5012|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of METAPOD ready
+2025-05-05 00:28:49.5113|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 12
+2025-05-05 00:28:50.1796|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BUTTERFREE ready
+2025-05-05 00:28:50.1917|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 13
+2025-05-05 00:28:50.6554|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WEEDLE ready
+2025-05-05 00:28:50.6686|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 14
+2025-05-05 00:28:51.1526|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of KAKUNA ready
+2025-05-05 00:28:51.1603|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 15
+2025-05-05 00:28:51.7976|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BEEDRILL ready
+2025-05-05 00:28:51.8065|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 16
+2025-05-05 00:28:52.4464|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEY ready
+2025-05-05 00:28:52.4654|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 17
+2025-05-05 00:28:53.1216|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOTTO ready
+2025-05-05 00:28:53.1317|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 18
+2025-05-05 00:28:53.9277|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOT ready
+2025-05-05 00:28:53.9277|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 19
+2025-05-05 00:28:54.6094|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATTATA ready
+2025-05-05 00:28:54.6173|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 20
+2025-05-05 00:28:55.2385|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATICATE ready
+2025-05-05 01:01:41.9661|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 7
+2025-05-05 01:01:41.9661|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 11
+2025-05-05 01:01:41.9661|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 15
+2025-05-05 01:01:41.9887|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 3
+2025-05-05 01:01:41.9887|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 6
+2025-05-05 01:01:42.0079|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 4
+2025-05-05 01:01:42.0079|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 12
+2025-05-05 01:01:42.0295|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 8
+2025-05-05 01:01:42.0295|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-05 01:01:42.0295|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 2
+2025-05-05 01:01:42.0445|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 14
+2025-05-05 01:01:42.0578|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 10
+2025-05-05 01:01:42.0761|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 5
+2025-05-05 01:01:42.0915|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 9
+2025-05-05 01:01:42.1043|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 20
+2025-05-05 01:01:42.1043|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 13
+2025-05-05 01:01:42.1158|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 18
+2025-05-05 01:01:42.1271|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 17
+2025-05-05 01:01:42.1271|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 16
+2025-05-05 01:01:42.1473|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 19
+2025-05-05 01:01:42.3756|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WEEDLE ready
+2025-05-05 01:01:42.3780|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of KAKUNA ready
+2025-05-05 01:01:42.3780|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WARTORTLE ready
+2025-05-05 01:01:42.3780|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATICATE ready
+2025-05-05 01:01:42.3961|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of IVYSAUR ready
+2025-05-05 01:01:42.3961|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BUTTERFREE ready
+2025-05-05 01:01:42.3961|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BEEDRILL ready
+2025-05-05 01:01:42.3961|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMANDER ready
+2025-05-05 01:01:42.3961|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of SQUIRTLE ready
+2025-05-05 01:01:42.4325|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-05 01:01:42.4325|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of METAPOD ready
+2025-05-05 01:01:42.4325|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOT ready
+2025-05-05 01:01:42.4325|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMELEON ready
+2025-05-05 01:01:42.4449|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of VENUSAUR ready
+2025-05-05 01:01:42.4449|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CATERPIE ready
+2025-05-05 01:01:42.4645|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARIZARD ready
+2025-05-05 01:01:42.4645|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOTTO ready
+2025-05-05 01:01:42.4748|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BLASTOISE ready
+2025-05-05 01:01:42.5083|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATTATA ready
+2025-05-05 01:01:42.8223|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEY ready
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 20
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 8
+2025-05-07 00:15:10.0819|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 5
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 15
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 18
+2025-05-07 00:15:10.0817|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 4
+2025-05-07 00:15:10.0817|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 7
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 19
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 2
+2025-05-07 00:15:10.0817|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 13
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 10
+2025-05-07 00:15:10.0819|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 16
+2025-05-07 00:15:10.0819|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 3
+2025-05-07 00:15:10.0817|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 12
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 11
+2025-05-07 00:15:10.0818|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 17
+2025-05-07 00:15:10.2443|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 9
+2025-05-07 00:15:10.2443|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 6
+2025-05-07 00:15:10.2547|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-07 00:15:10.2547|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 14
+2025-05-07 00:15:11.2726|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of METAPOD ready
+2025-05-07 00:15:11.8075|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOT ready
+2025-05-07 00:15:11.9667|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of VENUSAUR ready
+2025-05-07 00:15:11.9667|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BEEDRILL ready
+2025-05-07 00:15:11.9667|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATTATA ready
+2025-05-07 00:15:11.9667|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMELEON ready
+2025-05-07 00:15:11.9667|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WARTORTLE ready
+2025-05-07 00:15:12.0873|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of WEEDLE ready
+2025-05-07 00:15:12.0980|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CATERPIE ready
+2025-05-07 00:15:12.3928|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEOTTO ready
+2025-05-07 00:15:12.5832|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARMANDER ready
+2025-05-07 00:15:12.7055|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of KAKUNA ready
+2025-05-07 00:15:12.8245|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of IVYSAUR ready
+2025-05-07 00:15:12.8245|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of RATICATE ready
+2025-05-07 00:15:12.9833|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of PIDGEY ready
+2025-05-07 00:15:12.9833|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BUTTERFREE ready
+2025-05-07 00:15:13.1256|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of SQUIRTLE ready
+2025-05-07 00:15:13.1256|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BLASTOISE ready
+2025-05-07 00:15:13.1256|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of CHARIZARD ready
+2025-05-07 00:15:13.1476|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
