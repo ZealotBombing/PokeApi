@@ -17,6 +17,7 @@ namespace Pokemon.Component.BusinessMapper
             PokemonAbilityDto dto = new PokemonAbilityDto();
             dto.Is_hidden = abilityApiDataa.is_hidden;
             dto.Slot = abilityApiDataa.slot;
+            dto.ability = AbilityMapper.ToDto(abilityApiDataa.ability);
             
             return dto;
         }

@@ -10,5 +10,6 @@ namespace Pokemon.Component.DataTransferObject
     {
         public bool Is_hidden { get; set; }
         public int Slot { get; set; }
+        public AbilityDto ability { get; set; }
     }
 }
