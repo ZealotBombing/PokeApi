@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Pokemon.Component.DataTransferObject
 {
-    public class PokemonTypeDto
+    public class TypeDto
     {
-        public int Slot { get; set; }
-        public TypeDto type { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
     }
 }
