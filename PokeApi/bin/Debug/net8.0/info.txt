@@ -9335,3 +9335,12 @@ Path 'count', line 1, position 9.. Stack Trace:    at Newtonsoft.Json.Serializat
 2025-05-11 01:09:14.6526|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
 2025-05-11 01:18:39.0418|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
 2025-05-11 01:18:52.1419|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-11 02:32:36.3230|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-11 02:33:37.6535|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-11 02:41:47.5707|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-11 02:52:46.8673|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-11 02:52:48.9280|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-11 02:58:44.3196|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-11 02:58:44.7059|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
+2025-05-11 03:00:14.4960|INFO|PokeApi.Areas.Controller.PokemonController|INFO: getting data of pokemon 1
+2025-05-11 03:00:14.8315|INFO|PokeApi.Areas.Controller.PokemonController|INFO: data of BULBASAUR ready
