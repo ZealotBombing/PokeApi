@@ -9,6 +9,6 @@ namespace PokemonIntegration.Component.Pokemon.DataTransferObject
     public class PokemonTypeApiResultDto
     {
         public int slot {  get; set; }
-        //TODO: Type
+        public TypeApiResultDto type { get; set; }
     }
 }

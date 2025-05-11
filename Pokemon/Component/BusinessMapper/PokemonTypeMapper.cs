@@ -16,7 +16,7 @@ namespace Pokemon.Component.BusinessMapper
         {
             PokemonTypeDto dto = new PokemonTypeDto();
             dto.Slot = pokemonTypeData.slot;
-            
+            dto.type = TypeMapper.ToDto(pokemonTypeData.type);
             return dto;
         }
     }
