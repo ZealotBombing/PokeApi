@@ -15,9 +15,8 @@ namespace Pokemon.Component.BusinessMapper
         public static PokemonAbilityDto ToDto(PokemonAbilityApiResultDto abilityApiDataa)
         {
             PokemonAbilityDto dto = new PokemonAbilityDto();
-            dto.id = abilityApiDataa.id;
-            dto.name = abilityApiDataa.name;
-            dto.is_main_series = abilityApiDataa.is_main_series;
+            dto.Is_hidden = abilityApiDataa.is_hidden;
+            dto.Slot = abilityApiDataa.slot;
             
             return dto;
         }

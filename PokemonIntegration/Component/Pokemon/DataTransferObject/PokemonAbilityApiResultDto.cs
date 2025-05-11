@@ -8,15 +8,8 @@ namespace PokemonIntegration.Component.Pokemon.DataTransferObject
 {
     public class PokemonAbilityApiResultDto
     {
-        public int id {  get; set; }
-
-        public string name { get; set; }
-        public bool is_main_series { get; set; }
-        //TODO: generation
-        //TODO: names
-        //TODO: effect_entries
-        //TODO: effect_changes
-        //TODO: flavor_text_entries
-        //TODO: pokemon
+        public bool is_hidden {  get; set; }
+        public int slot {  get; set; }
+        //TODO: ability
     }
 }
