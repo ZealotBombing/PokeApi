@@ -1,4 +1,4 @@
-using NLog;
+﻿using NLog;
 using PokeApi;
 using System.Runtime;
 
@@ -32,6 +32,12 @@ builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection("MySett
 //                  .AllowAnyHeader();
 //        });
 //});
+
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(80);
+});
+
 
 var app = builder.Build();
 
