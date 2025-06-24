@@ -126,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -168,6 +168,10 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ConnectionString.config",
@@ -190,8 +194,7 @@
               "RelativeToolTip": "PokeApi\\Configuration\\Settings\\AppSettings.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-13T06:27:52.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T06:27:52.29Z"
             },
             {
               "$type": "Document",
@@ -203,12 +206,7 @@
               "RelativeToolTip": "PokeApi\\Nlog.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-13T06:27:39.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-06-13T06:27:39.419Z"
             },
             {
               "$type": "Document",
@@ -244,8 +242,7 @@
               "RelativeToolTip": "PokeApi\\Configuration\\ServiceModel\\Client.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-04T07:39:13.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T07:39:13.827Z"
             },
             {
               "$type": "Document",
@@ -269,8 +266,7 @@
               "RelativeToolTip": "PokeApi\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T05:18:54.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T05:18:54.962Z"
             },
             {
               "$type": "Document",
