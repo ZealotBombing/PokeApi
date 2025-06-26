@@ -61,6 +61,11 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.MvcApplicat
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.sourcelink.json
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets\msbuild.PokeApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets\msbuild.build.PokeApi.props
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PokeApi.props
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PokeApi.props
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\scopedcss\bundle\PokeApi.styles.css
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.csproj.Up2Date
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.dll
@@ -70,5 +75,5 @@ C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\PokeApi.genruntimec
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\ref\PokeApi.dll
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\bin\Debug\net8.0\PokeApi.staticwebassets.endpoints.json
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets\msbuild.PokeApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\cfuen\source\repos\PokeApi\PokeApi\obj\Debug\net8.0\staticwebassets.build.json.cache
