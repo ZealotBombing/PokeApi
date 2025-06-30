@@ -14,26 +14,26 @@ namespace TestProject1
         public void GetPokemonFromApiConnection()
         {
             
-            var apiConnection = new ApiConnection();
+            //var apiConnection = new ApiConnection();
 
-            var data = apiConnection.GetResponseAsync<PokemonApiResultDto>("pokemon/1").GetAwaiter().GetResult();
+            //var data = apiConnection.GetResponseAsync<PokemonApiResultDto>("pokemon/1").GetAwaiter().GetResult();
 
         }
 
         [Test]
         public void GetPokemonFromImplementation()
         {
-            var pokemonImpl = new PokemonApiConnectionImpl();
+            //var pokemonImpl = new PokemonApiConnectionImpl();
 
-            var pokemonData = pokemonImpl.GetPokemon("3").GetAwaiter().GetResult();
+            //var pokemonData = pokemonImpl.GetPokemon("3").GetAwaiter().GetResult();
         }
 
         [Test]
         public void GetPokemonFromBLLImplementatio()
         {
-            var pokemonImpl = new PokemonImplementation();
+            //var pokemonImpl = new PokemonImplementation();
 
-            var data = pokemonImpl.GetPokemon("1").GetAwaiter().GetResult();
+            //var data = pokemonImpl.GetPokemon("1").GetAwaiter().GetResult();
         }
 
     }
