@@ -2,7 +2,7 @@
 {
     public class ApiSettings
     {
-        public string PokeApiHost { get; set; }
+        public string PokeApiHost { get; set; } = string.Empty;
 
     }
 }
