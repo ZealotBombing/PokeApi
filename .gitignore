@@ -213,3 +213,13 @@
 /PokemonIntegration/obj/Release/net8.0/PokemonIntegration.GeneratedMSBuildEditorConfig.editorconfig
 /PokemonIntegration/obj/Release/net8.0/PokemonIntegration.sourcelink.json
 /PokemonIntegration/obj/Release/net8.0/PokemonIntegration.pdb
+/PokeApi/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/PokeApi/obj/Debug/net8.0/staticwebassets.build.json
+/PokeApi/obj/PokeApi.csproj.nuget.dgspec.json
+/PokeApi/obj/PokeApi.csproj.nuget.g.props
+/PokeApi/obj/project.assets.json
+/PokeApi/ApiSettings.cs
+/PokemonDAL/obj/Debug/net8.0/PokemonDAL.assets.cache
+/PokemonDAL/obj/Debug/net8.0/PokemonDAL.csproj.FileListAbsolute.txt
+/PokemonIntegration/obj/Debug/net8.0/PokemonIntegration.csproj.AssemblyReference.cache
+/TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt
