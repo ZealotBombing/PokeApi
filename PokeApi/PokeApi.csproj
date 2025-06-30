@@ -25,11 +25,5 @@
   <ItemGroup>
     <ProjectReference Include="..\Pokemon\Pokemon.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Content Update="Configuration\ServiceModel\Client.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
 	
 </Project>
