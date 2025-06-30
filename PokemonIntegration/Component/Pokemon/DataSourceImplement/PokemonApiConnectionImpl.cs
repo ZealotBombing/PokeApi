@@ -15,9 +15,9 @@ namespace PokemonIntegration.Component.Pokemon.DataSourceImplement
     {
         private readonly IApiConnection _apiConnection;
 
-        public PokemonApiConnectionImpl()
+        public PokemonApiConnectionImpl(HttpClient client)
         {
-            _apiConnection = new ApiConnection();
+            _apiConnection = new ApiConnection(client);
         }
 
         public async Task<PokemonApiResultDto> GetPokemon(string pokeId) {

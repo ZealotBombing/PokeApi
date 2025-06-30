@@ -15,9 +15,9 @@ namespace Pokemon.Component.BusinessImplement
     {
         private IPokemonApiConnectionImpl _pokemonApiConnectionImpl;
 
-        public PokemonImplementation() {
+        public PokemonImplementation(HttpClient client) {
 
-            _pokemonApiConnectionImpl = new PokemonApiConnectionImpl();
+            _pokemonApiConnectionImpl = new PokemonApiConnectionImpl(client);
 
         }
 

@@ -4,6 +4,8 @@ using Pokemon.Component.DataTransferObject;
 using Pokemon.Component.Interfaces;
 using Swashbuckle.AspNetCore.Filters;
 using NLog;
+using Microsoft.AspNetCore.Components;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 
 namespace PokeApi.Areas.Controller
@@ -15,9 +17,9 @@ namespace PokeApi.Areas.Controller
         IPokemonImplementation _pokemonImplementation;
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
 
-        public PokemonController()
+        public PokemonController(IHttpClientFactory httpClientFactory)
         {
-            _pokemonImplementation = new PokemonImplementation();
+            _pokemonImplementation = new PokemonImplementation(httpClientFactory.CreateClient("PokeApi"));
         }
 
         [HttpGet("Pokemon")]

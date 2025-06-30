@@ -38,6 +38,11 @@ builder.WebHost.ConfigureKestrel(serverOptions =>
     serverOptions.ListenAnyIP(80);
 });
 
+builder.Services.AddHttpClient<ApiSettings>("PokeApi",client =>
+{
+    client.BaseAddress = new Uri("https://pokeapi.co/api/v2/");
+
+});
 
 var app = builder.Build();
 

@@ -19,21 +19,18 @@ namespace PokemonIntegration.Component.APIConnection
 {
     public class ApiConnection: IApiConnection
     {
-        private readonly string _pokeHost;
+        private readonly HttpClient _pokeClient;
 
-        public ApiConnection()
+        public ApiConnection(HttpClient client)
         {
-            _pokeHost = ClientConfigReader.GetApiHost();
+            _pokeClient = client;
         }
 
         public async Task<T> GetResponseAsync<T>(string endPoint)
         {
             using (HttpClient pokeClient = new HttpClient())
             {
-                Uri baseAddress = new Uri(_pokeHost);
-                pokeClient.BaseAddress = baseAddress;
-
-                HttpResponseMessage httpResponseMessage = await pokeClient.GetAsync(endPoint);
+                HttpResponseMessage httpResponseMessage = await _pokeClient.GetAsync(endPoint);
 
                 if (httpResponseMessage.IsSuccessStatusCode)
                 {
