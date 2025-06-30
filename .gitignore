@@ -226,3 +226,4 @@
 /TestProject1/obj/project.assets.json
 /TestProject1/obj/TestProject1.csproj.nuget.dgspec.json
 /TestProject1/obj/TestProject1.csproj.nuget.g.props
+/PokeApi/bin/Debug/net8.0/PokeApi.staticwebassets.endpoints.json
