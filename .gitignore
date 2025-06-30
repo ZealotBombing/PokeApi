@@ -223,3 +223,6 @@
 /PokemonDAL/obj/Debug/net8.0/PokemonDAL.csproj.FileListAbsolute.txt
 /PokemonIntegration/obj/Debug/net8.0/PokemonIntegration.csproj.AssemblyReference.cache
 /TestProject1/obj/Debug/net8.0/TestProject1.csproj.FileListAbsolute.txt
+/TestProject1/obj/project.assets.json
+/TestProject1/obj/TestProject1.csproj.nuget.dgspec.json
+/TestProject1/obj/TestProject1.csproj.nuget.g.props
