@@ -1,6 +1,0 @@
-2025-04-11 20:12:31.8654|ERROR|PokeApi.Areas.Controller.PokemonController|System.Exception: Exception of type 'System.Exception' was thrown.
-   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
-2025-04-11 20:12:33.9402|ERROR|PokeApi.Areas.Controller.PokemonController|System.Exception: Exception of type 'System.Exception' was thrown.
-   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
-2025-04-11 20:15:04.8376|INFO|PokeApi.Areas.Controller.PokemonController|System.Exception: Exception of type 'System.Exception' was thrown.
-   at PokeApi.Areas.Controller.PokemonController.GetPokemon(String pokeId) in C:\Users\cfuen\source\repos\PokeApi\PokeApi\Areas\Controllers\PokemonController.cs:line 31
