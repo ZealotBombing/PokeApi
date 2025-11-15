@@ -1,0 +1,40 @@
+﻿using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
+using PokeApi;
+using Pokemon.Component.BusinessImplement;
+using PokemonIntegration.Component.APIConnection;
+using PokemonIntegration.Component.Pokemon.DataSourceImplement;
+using PokemonIntegration.Component.Pokemon.DataTransferObject;
+
+namespace TestProject1
+{
+    internal class PokemonTest
+    {
+        [Test]
+        public void GetPokemonFromApiConnection()
+        {
+            
+            //var apiConnection = new ApiConnection();
+
+            //var data = apiConnection.GetResponseAsync<PokemonApiResultDto>("pokemon/1").GetAwaiter().GetResult();
+
+        }
+
+        [Test]
+        public void GetPokemonFromImplementation()
+        {
+            //var pokemonImpl = new PokemonApiConnectionImpl();
+
+            //var pokemonData = pokemonImpl.GetPokemon("3").GetAwaiter().GetResult();
+        }
+
+        [Test]
+        public void GetPokemonFromBLLImplementatio()
+        {
+            //var pokemonImpl = new PokemonImplementation();
+
+            //var data = pokemonImpl.GetPokemon("1").GetAwaiter().GetResult();
+        }
+
+    }
+}
